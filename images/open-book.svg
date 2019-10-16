@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 28.637 21.878">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="2.087" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6c2a21"/>
+      <stop offset="1" stop-color="#9b3a2e"/>
+    </linearGradient>
+  </defs>
+  <g id="open-book" transform="translate(0 -35.048)">
+    <g id="Group_213" data-name="Group 213" transform="translate(0 35.048)">
+      <g id="Group_212" data-name="Group 212">
+        <path id="Path_1" data-name="Path 1" class="cls-1" d="M35.855,35.049h0a1.01,1.01,0,0,0-.718.3,1.02,1.02,0,0,0-.3.727V51.44a1.028,1.028,0,0,0,1.026,1.024c2.385.006,6.382.5,9.138,3.388V39.771a.982.982,0,0,0-.141-.519C42.594,35.608,38.246,35.055,35.855,35.049Z" transform="translate(-31.474 -35.049)"/>
+        <path id="Path_2" data-name="Path 2" class="cls-1" d="M166.915,51.439V36.073a1.02,1.02,0,0,0-.3-.727,1.01,1.01,0,0,0-.718-.3h0c-2.391.006-6.739.559-9,4.2a.982.982,0,0,0-.141.519V55.851c2.757-2.885,6.753-3.382,9.138-3.388A1.028,1.028,0,0,0,166.915,51.439Z" transform="translate(-141.637 -35.048)"/>
+        <path id="Path_3" data-name="Path 3" class="cls-1" d="M182.56,71.8h-.743V84.648a2.622,2.622,0,0,1-2.613,2.615c-2.023,0-5.359.4-7.722,2.637a24.669,24.669,0,0,1,10.848.209,1.025,1.025,0,0,0,1.254-1V72.826A1.026,1.026,0,0,0,182.56,71.8Z" transform="translate(-154.948 -68.257)"/>
+        <path id="Path_4" data-name="Path 4" class="cls-1" d="M1.768,84.648V71.8H1.025A1.026,1.026,0,0,0,0,72.826V89.111a1.025,1.025,0,0,0,1.254,1A24.667,24.667,0,0,1,12.1,89.9c-2.362-2.236-5.7-2.632-7.722-2.636A2.622,2.622,0,0,1,1.768,84.648Z" transform="translate(0 -68.257)"/>
+      </g>
+    </g>
+  </g>
+</svg>

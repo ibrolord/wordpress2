@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 16.191 24.868" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style>.cls-1 {
+        fill: url(#a);
+      }</style>
+<linearGradient id="a" x1=".5" x2="2.087" y2="1">
+<stop stop-color="#6c2a21" offset="0"/>
+<stop stop-color="#9b3a2e" offset="1"/>
+</linearGradient>
+</defs>
+<g transform="translate(-89.326)">
+<g transform="translate(94.437 12.893)" data-name="Group 216">
+<g data-name="Group 215">
+<path class="cls-1" transform="translate(-194.55 -265.45)" d="M196.445,265.452h-1.467a.429.429,0,1,0,0,.858h1.467a.429.429,0,1,0,0-.858Z" data-name="Path 12"/>
+</g>
+</g>
+<g transform="translate(89.326)" data-name="Group 218">
+<g transform="translate(0)" data-name="Group 217">
+<path class="cls-1" transform="translate(-89.326)" d="M105.088,1.245H98.759V.429a.429.429,0,0,0-.54-.414L89.644,2.3a.429.429,0,0,0-.318.415V4.1a.429.429,0,1,0,.858,0V3.045L97.9.987V23.915l-7.717-1.543V5.547a.429.429,0,1,0-.858,0V22.724a.429.429,0,0,0,.345.421l8.575,1.715a.429.429,0,0,0,.513-.421v-.816h3.954a.429.429,0,0,0,0-.858H98.759V21.54h4.246a.429.429,0,0,0,.429-.429V3.757a.429.429,0,0,0-.429-.429H98.759V2.1h5.9v20.66h-.612a.429.429,0,0,0,0,.858h1.041a.429.429,0,0,0,.429-.429V1.674A.429.429,0,0,0,105.088,1.245Zm-2.511,2.94v16.5H98.759V4.186Z" data-name="Path 13"/>
+</g>
+</g>
+</g>
+</svg>
