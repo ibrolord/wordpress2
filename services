@@ -19,7 +19,7 @@
     <![endif]-->
     <section class="header alt-header index-bg">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand active" href="index">GIC</a>
+            <a class="navbar-brand active" href="index">TBS</a>
             <button class="toggleNav">
                 <?xml version='1.0' encoding='utf-8'?>
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 129 129">
@@ -60,7 +60,7 @@
         </nav>
         <div class="overlay">
             <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand active" href="index">GIC</a>
+                <a class="navbar-brand active" href="index">TBS</a>
                 <button class="toggleNav cross">
                     <?xml version='1.0' encoding='utf-8'?>
                     <?xml version="1.0" encoding="iso-8859-1"?>
@@ -459,11 +459,11 @@
                 <ul>
                     <li>
                         <img src="images/mail.svg" alt="" class="contact-image">
-                        <span>cahanonu@goshenconsulting.ca</span>
+                        <span>majibaye@thebrainscape.com</span>
                     </li>
                     <li>
                         <img src="images/phone.svg" alt="" class="contact-image">
-                        <span>+1 (745) 466-1000</span>
+                        <span>+1 (905) 324-7862</span>
                     </li>
                     <li>
                         <img src="images/pin.svg" alt="" class="contact-image">
@@ -500,11 +500,11 @@
             <ul>
                 <li>
                     <img src="images/mail.svg" alt="" class="contact-image">
-                    <p>cahanonu@goshenconsulting.ca</p>
+                    <p>majibaye@thebrainscape.com</p>
                 </li>
                 <li>
                     <img src="images/phone.svg" alt="" class="contact-image">
-                    <p>+1 (745) 466-1000</p>
+                    <p>+1 (905) 324-7862</p>
                 </li>
                 <li>
                     <img src="images/pin.svg" alt="" class="contact-image">
