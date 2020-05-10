@@ -1,0 +1,8 @@
+apiVersion: v1
+data:
+  password: UmFOQ2lpRCNNRA==
+kind: Secret
+metadata:
+  creationTimestamp: null
+  name: mysql-pass
+  namespace: wordpress
