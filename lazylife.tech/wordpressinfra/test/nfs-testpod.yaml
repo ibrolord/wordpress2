@@ -17,7 +17,6 @@ spec:
         imagePullPolicy: Always
         name: busybox
         volumeMounts:
-          # name must match the volume name below
           - name: my-pvc-nfs
             mountPath: "/mnt"
       volumes:

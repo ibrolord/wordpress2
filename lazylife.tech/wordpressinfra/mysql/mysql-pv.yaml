@@ -8,9 +8,9 @@ spec:
     storage: 1Gi
   accessModes:
     - ReadWriteMany
-      #  mountOptions:
-      #- hard
-      #- nfsvers=4.1
+  mountOptions:
+  - hard
+  - nfsvers=4.1
   nfs:
     path: /mysql
     server: nfs-server
@@ -24,7 +24,7 @@ metadata:
 spec:
   accessModes:
     - ReadWriteOnce
-  storageClassName: ""
+  storageClassName: standard
   resources:
     requests:
       storage: 1Gi

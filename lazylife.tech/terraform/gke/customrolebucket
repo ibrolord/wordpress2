@@ -1,0 +1,10 @@
+gcloud iam service-accounts create terraform
+
+gcloud iam roles create terraformStorage --title="Terraform access to Cloud Storage" --description="Terraform access to Cloud Storage" --permissions=storage.buckets.create,storage.buckets.get,storage.buckets.list,storage.objects.create,storage.objects.delete,storage.objects.get,storage.objects.list,storage.objects.update --stage=ALPHA --project=ibrobaba
+
+gcloud iam service-accounts add-iam-policy-binding terraform@ibrobaba.iam.gserviceaccount.com --member='serviceAccount:terraform@ibrobaba.iam.gserviceaccount.com' --role='projects/ibrobaba/roles/terraformStorage'
+
+gsutil mb gs://gke-from-scratch-terraform-state-ibro
+
+gcloud iam service-accounts keys create account.json --iam-account terraform@ibrobaba.iam.gserviceaccount.com
+
