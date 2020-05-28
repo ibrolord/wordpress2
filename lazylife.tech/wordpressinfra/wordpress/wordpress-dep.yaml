@@ -5,6 +5,7 @@ metadata:
   labels:
     app: wordpress
   name: wordpress
+  namespace: wordpress
 spec:
   replicas: 1
   selector:
