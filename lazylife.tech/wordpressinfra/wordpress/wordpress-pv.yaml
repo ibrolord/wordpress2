@@ -5,27 +5,28 @@ metadata:
   namespace: wordpress
 spec:
   capacity:
-    storage: 1Gi
+    storage: 2Gi
   accessModes:
     - ReadWriteMany
-  mountOptions:
-    - hard
-    - nfsvers=4.1
+  storageClassName: "nfs"
+  #mountOptions:
+  #  - hard
+  #  - nfsvers=4.1
   nfs:
-    path: /html
-    server: nfs-server
+    path: "/exports"
+    server: nfs-server.wordpress.svc.cluster.local
 
 ---
 
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: wordpress-persistent-storage-pvc
+  name: wordpress-persistent-storage
   namespace: wordpress
 spec:
   accessModes:
     - ReadWriteMany
-  storageClassName: "standard"
+  storageClassName: "nfs"
   resources:
     requests:
       storage: 1Gi

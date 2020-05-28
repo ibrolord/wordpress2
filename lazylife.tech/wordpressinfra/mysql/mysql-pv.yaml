@@ -5,15 +5,16 @@ metadata:
   namespace: wordpress
 spec:
   capacity:
-    storage: 1Gi
+    storage: 2Gi
   accessModes:
     - ReadWriteMany
-  mountOptions:
-  - hard
-  - nfsvers=4.1
+  storageClassName: "nfs"
+  #mountOptions:
+  #- hard
+  #- nfsvers=4.1
   nfs:
-    path: /mysql
-    server: nfs-server
+    path: "/exports"
+    server: nfs-server.wordpress.svc.cluster.local
 
 ---
 apiVersion: v1
@@ -23,8 +24,8 @@ metadata:
   namespace: wordpress
 spec:
   accessModes:
-    - ReadWriteOnce
-  storageClassName: ""
+    - ReadWriteMany
+  storageClassName: "nfs"
   resources:
     requests:
       storage: 1Gi

@@ -23,6 +23,8 @@ spec:
             containerPort: 20048
           - name: rpcbind
             containerPort: 111
+        #command: ["mkdir"]
+        #args: ["-p", "/exports/html", "/exports/mysql"]
         securityContext:
           privileged: true
         volumeMounts:
@@ -31,5 +33,5 @@ spec:
       volumes:
         - name: mypvc
           gcePersistentDisk:
-            pdName: gce-nfs-disk
+            pdName: nfs-disk
             fsType: ext4

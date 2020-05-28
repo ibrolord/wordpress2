@@ -1,4 +1,4 @@
-apiVersion: apps/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   creationTimestamp: null
@@ -23,7 +23,7 @@ spec:
       volumes:
       - name: wordpress-persistent-storage
         persistentVolumeClaim:
-          claimName: wordpress-persistent-storage-pvc
+          claimName: wordpress-persistent-storage
       containers:
       - env:
         - name: WORDPRESS_DB_HOST
