@@ -22,7 +22,7 @@ spec:
       volumes:
       - name: wordpress-persistent-storage
         persistentVolumeClaim:
-          claimName: wordpress-persistent-storage
+          claimName: wordpress-persistent-storage-pvc
       containers:
       - env:
         - name: WORDPRESS_DB_HOST
